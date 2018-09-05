@@ -1,4 +1,3 @@
-# python-snaps-with-snapcraft
 # Building linux snaps with Snapcraft
 
 ## Installing Snapcraft
