@@ -101,7 +101,7 @@ snapcraft cleanbuild
 
 however, this ended with an error:
 
-![](./lxd2.png)
+![](./img/lxd2.png)
 
 this is because we are running lxd unprivilege. 
 
@@ -192,7 +192,7 @@ Just make it executable and run it with the snap project folder as parameter lik
 
 here is what you will get
 
-![](./lxd3.png)
+![](./img/lxd3.png)
 
 and a new snap was created at test_snap ready to install. if you need to rebuild, it's a good idea cleanin **parts**, **prime** and **stage** folders.
 
@@ -228,7 +228,7 @@ A basic structure will have 4 files:
 
 here is the the structure:
 
-![](./python01.png)
+![](./img/python01.png)
 
 #### Python Code
 
@@ -328,7 +328,7 @@ python mqttping.py test
 
 Here is the expected result
 
-![](./python02.png)
+![](./img/python02.png)
 
 #### Hosting at Github
 
