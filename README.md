@@ -81,7 +81,7 @@ lxc stop test
 lxc delete test
 ```
 
-![](./lxc.png)
+![](./img/lxc.png)
 
 ##### Test a container build
 
