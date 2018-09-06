@@ -16,6 +16,7 @@ parts:
     # See 'snapcraft plugins'
     plugin: python
     python-version: python2
+    requirements: https://raw.githubusercontent.com/pedrorgo/mqttping/master/requirements.txt
 
 apps:
   mqttping:
