@@ -142,7 +142,7 @@ On_White='\033[47m'       # White
 # Vars
 #######################
 
-SNAPPY_PROJECTS=/home/$USER
+SNAPPY_PROJECTS=$(pwd)
 
 if [ -z "$1" ]; then
     echo -e "${BRed}Error: ${Yellow}1 Argument missing. Snap project folder is mandatory. $Color_Off"
@@ -412,7 +412,7 @@ On_White='\033[47m'       # White
 # Vars
 #######################
 
-SNAPPY_PROJECTS=/home/$USER
+SNAPPY_PROJECTS=$(pwd)
 
 if [ -z "$1" ]; then
     echo -e "${BRed}Error: ${Yellow}1 Argument missing. Snap project folder is mandatory. $Color_Off"
