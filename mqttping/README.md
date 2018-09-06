@@ -3,7 +3,7 @@
 
 ## Installation
 
-There are three ways to get `mqttstat`:
+There are three ways to get `mqttping`:
 
 
 ## Usage
@@ -11,12 +11,14 @@ There are three ways to get `mqttstat`:
 Simply:
 
 ```bash
+mqttping 
 ```
-
+to get help or:
 
 ```bash
+mqttping <message>
 ```
-
+to print a message with parameter.
 
 ### Environment Variables
 
