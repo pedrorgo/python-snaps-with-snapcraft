@@ -31,7 +31,7 @@ On_Purple='\033[45m'      # Purple
 On_Cyan='\033[46m'        # Cyan
 On_White='\033[47m'       # White
 
-SNAPPY_PROJECTS=/home/$USER
+SNAPPY_PROJECTS=$(pwd)
 
 if [ -z "$1" ]; then
     echo -e "${BRed}Error: ${Yellow}1 Argument missing. Snap project folder is mandatory. $Color_Off" 
